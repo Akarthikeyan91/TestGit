@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
 ###### String reverse with range ######
 s = "Hello"

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
 def detail(initial, name='xxxx', age=27, hight=190, weight=80):
     print("INITIAL: %s" % initial + "\nNAME: {:8s}".format(name) + "\nAGE: {:8d}".format(age) + "\nHIGHT: %s" % hight + "\nWEIGHT: %s" % weight )

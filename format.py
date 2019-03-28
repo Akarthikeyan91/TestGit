@@ -1,4 +1,4 @@
-#!/usr/bin/python 
+#!/c/Python36/python 
 
 # integer numbers with minimum width
 print("{1:8d}".format(12,34),"{1:8d}".format(12,34))
@@ -20,7 +20,7 @@ print("{:08.3f}".format(12.2346))
 
 a=[1,11,111,1111,11111]
 for i in a:
-    print i
+    print("{:6d}".format(i),i)
 
-for i in a:
-    print("{:6d}".format(i))
+for i in a[::-1]:
+    print("{:6d}".format(i),i)

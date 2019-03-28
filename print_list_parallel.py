@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
 l1=[1,2,3]
 l2=[4,5,6,7,8]

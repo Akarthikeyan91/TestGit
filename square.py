@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
 # Using list comprehension, found square value of odd numbers.
 

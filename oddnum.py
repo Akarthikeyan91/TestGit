@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
 
 # Adding odd numbers without using recursion 
@@ -8,5 +8,4 @@ for i in (range(100)):
     add_value = i + add_initial
     if add_value % 2 == 1:
          add_initial = add_value
-print(add_initial)
-~                         
+print(add_initial)                         

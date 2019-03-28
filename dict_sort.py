@@ -1,4 +1,4 @@
-#!/usr/bin/python 
+#!/c/Python36/python 
 
 
 dictionary1={"abcd":1436,"vaa":821,"bat":6782}

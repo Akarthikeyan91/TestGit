@@ -1,4 +1,4 @@
-!/usr/bin/python 
+#!/c/Python36/python
 
 class Reverse:
     """Iterator for looping over a sequence backwards."""

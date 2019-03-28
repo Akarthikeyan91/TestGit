@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
 import re 
 ip_address = "IP address is need to be validated and segreagated with the IP subnetting 200.34.23.1/23, ip address of interface is 192.168.1.3/28 and 192.178.2.1/31 this should be derived for network planning"

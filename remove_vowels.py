@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
 # Verifying and removing vowels from the string
 
@@ -14,8 +14,8 @@ if isinstance (Char,str):
          else:
              char_vowels.append(i)
 if len(char_final) + len(char_vowels) == len(Char):
-     print ("elements are seggregated")
+     print("elements are seggregated")
 else:
-     print ("elements are missing")
-print (char_final)
-print (char_vowels)
+     print("elements are missing")
+print(char_final)
+print(char_vowels)

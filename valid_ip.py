@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 import re
 
 # IP Validation calling through function 

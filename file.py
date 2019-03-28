@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
-fo = open("foo.txt", "rw+")
-print "Name of the file: ", fo.name
+fo = open("foo.txt", 'rw')
+print("Name of the file: ", fo.name)
 
 
 #line = fo.readline()
@@ -12,7 +12,7 @@ fo.truncate()
 
 # Try to read file now
 line = fo.readline()
-print "Read Line: %s" % (line)
+print("Read Line: %s" % (line))
 
 # Close opend file
 fo.close()

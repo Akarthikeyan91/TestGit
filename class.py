@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/c/Python36/python
 
 #import pdb
 #pdb.set_trace()
@@ -43,24 +43,24 @@ class CSStudent:
 a = CSStudent("Geek", 1) 
 b = CSStudent("Nerd", 2) 
 
-print "Initially"
-print "a.stream =", a.stream 
-print "b.stream =", b.stream 
+print("Initially")
+print("a.stream =", a.stream)
+print("b.stream =", b.stream)
 
 # This thing doesn't change class(static) variable 
 # Instead creates instance variable for the object 
 # 'a' that shadows class member. 
 a.stream = "ece"
 
-print "\nAfter changing a.stream"
-print "a.stream =", a.stream 
-print "b.stream =", b.stream 
+print("\nAfter changing a.stream")
+print("a.stream =", a.stream)
+print("b.stream =", b.stream)
 
 CSStudent.stream = "eee"
 
-print "\nAfter changing a.stream"
-print "a.stream =", a.stream 
-print "b.stream =", b.stream 
+print("\nAfter changing a.stream")
+print("a.stream =", a.stream)
+print("b.stream =", b.stream)
 
 
 '''
